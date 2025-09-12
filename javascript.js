@@ -1,3 +1,6 @@
+let humanScore = 0
+let computerScore = 0
+
 function getComuperChoice(max) {
     const number = Math.floor(Math.random() * max);
     if (number === 0) return "paper";
