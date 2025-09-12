@@ -7,3 +7,12 @@ function getComuperChoice(max) {
 
 //console.log(getRandomInt(3));
 
+
+
+
+
+function getHumanChoice() {
+    let answer = prompt("Please enter your choice: ");
+}
+
+getHumanChoice()
