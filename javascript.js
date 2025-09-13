@@ -29,21 +29,27 @@ console.log(humanChoice)
 function playRound(humanChoice, computerChoice) {
     if (humanChoice === "rock" && computerChoice === "scissors") {
         console.log("You won");
+        humanScore =+ 1;
     }
     else if (humanChoice === "rock" && computerChoice === "paper") {
         console.log("You lost");
+        computerScore =+ 1;
     }
     else if (humanChoice === "paper" && computerChoice === "rock") {
         console.log("You won");
+        humanScore =+ 1;
     }
     else if (humanChoice === "paper" && computerChoice === "scissors") {
         console.log("You lost");
+        computerScore =+ 1;
     }
     else if (humanChoice === "scissors" && computerChoice === "paper") {
         console.log("You won");
+        humanScore =+ 1;
     }
     else if (humanChoice === "scissors" && computerChoice === "rock") {
         console.log("You lost");
+        computerScore =+ 1;
     }
     else {
         console.log("It is a draw, play again");
@@ -51,3 +57,6 @@ function playRound(humanChoice, computerChoice) {
 }
 
 playRound(humanChoice, computerChoice)
+
+console.log(humanScore)
+console.log(computerScore)
