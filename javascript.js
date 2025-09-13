@@ -40,27 +40,33 @@ function playGame() {
 
     if (humanChoice === "rock" && computerChoice === "scissors") {
         console.log("You won! Rock vs Scissors");
-        humanScore =+ 1;
+        humanScore++;
+        console.log(humanScore);
     }
     else if (humanChoice === "rock" && computerChoice === "paper") {
         console.log("You lost! Rock vs Paper");
-        computerScore =+ 1;
+        computerScore++;
+        console.log(computerScore);
     }
     else if (humanChoice === "paper" && computerChoice === "rock") {
         console.log("You won! Paper vs Rock");
-        humanScore =+ 1;
+        humanScore++;
+        console.log(humanScore);
     }
     else if (humanChoice === "paper" && computerChoice === "scissors") {
         console.log("You lost! Paper vs Scissors");
-        computerScore =+ 1;
+        computerScore++;
+        console.log(computerScore);
     }
     else if (humanChoice === "scissors" && computerChoice === "paper") {
         console.log("You won! Scissors vs Paper");
-        humanScore =+ 1;
+        humanScore++;
+        console.log(humanScore);
     }
     else if (humanChoice === "scissors" && computerChoice === "rock") {
         console.log("You lost: Scissorts vs Rock");
-        computerScore =+ 1;
+        computerScore++;
+        console.log(computerScore);
     }
     else {
         console.log("It is a draw, play again");
